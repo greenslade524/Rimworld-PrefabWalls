@@ -7,11 +7,14 @@
   </supportedVersions>
   <packageId>Greenslade.PrefabWalls</packageId>
   <modVersion>0.19</modVersion>
-  <description>A mod I made to solve a problem of Gravship play. Whenever you land on a new map, you need to set up defenses quickly. I felt like this was a good balanced solution.
+  <description>A mod I made to solve a personal minor annoyance with Gravship play. Whenever you land on a new map, you need to set up defenses quickly. I felt like this was a good balanced solution.
  
 This mod moves the work and material cost to workbenches rather than the construction itself. Craft Prefab Panels at a machining table, then snap them together into walls on-site.
 
-Construct walls, doors, autodoors and barricades from prefab panels. The first tier is unlocked after machining and costs 10 steel per panel. The second, advanced tier is unlocked after fabrication and costs 12 steel and 1 plasteel per panel. The advanced tier also has slightly less vulnerability to bombs and thump damage than regular walls. 
+Construct walls, doors, autodoors and barricades from prefab panels. The first tier is unlocked after machining and costs 10 steel per panel. The second, advanced tier is unlocked after fabrication and costs 12 steel and 1 plasteel per panel. The advanced tier also has slightly less vulnerability to bombs and thump damage than regular walls, and has built in electrical conduit. 
+
+Traders should also carry some panels with them, but you still need the research in order to use them.
+
 
 Optional compatibility:
 - Basic Double Doors: adds standard and advanced Prefab Double Doors and Double Autodoors when loaded
