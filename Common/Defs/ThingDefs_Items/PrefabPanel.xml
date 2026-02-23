@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>PrefabPanel</defName>
+    <label>prefab panel</label>
+    <description>A pre-formed steel panel designed for rapid modular construction. Snap-fit edges allow walls to be assembled and disassembled quickly with no material waste.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PrefabPanel</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>22</MarketValue>
+      <Mass>4</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <stackLimit>75</stackLimit>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+
+</Defs>

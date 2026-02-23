@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>AdvPrefabConstruction</defName>
+    <label>advanced prefab construction</label>
+    <description>Develop techniques for reinforcing snap-fit panels with plasteel, enabling stronger modular wall, door, and autodoor construction.</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>PrefabConstruction</li>
+      <li>Fabrication</li>
+    </prerequisites>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>3.50</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Recycle_PrefabPanel</defName>
+    <label>recycle prefab panel</label>
+    <description>Disassemble a prefab panel back into steel. Some material is lost in the process.</description>
+    <jobString>Recycling prefab panel.</jobString>
+    <workAmount>400</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PrefabPanel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PrefabPanel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Steel>8</Steel>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>TableMachining</li>
+    </recipeUsers>
+    <researchPrerequisites>
+      <li>PrefabConstruction</li>
+    </researchPrerequisites>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Recycle_AdvPrefabPanel</defName>
+    <label>recycle advanced prefab panel</label>
+    <description>Disassemble an advanced prefab panel back into steel. The plasteel reinforcement is lost in the process.</description>
+    <jobString>Recycling advanced prefab panel.</jobString>
+    <workAmount>600</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AdvPrefabPanel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AdvPrefabPanel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Steel>10</Steel>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <researchPrerequisites>
+      <li>AdvPrefabConstruction</li>
+    </researchPrerequisites>
+  </RecipeDef>
+
+</Defs>

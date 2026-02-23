@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="PrefabWall"]/building/relatedBuildCommands</xpath>
+    <value>
+      <li>PrefabDoubleDoor</li>
+      <li>PrefabDoubleAutodoor</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="AdvPrefabWall"]/building/relatedBuildCommands</xpath>
+    <value>
+      <li>AdvPrefabDoubleDoor</li>
+      <li>AdvPrefabDoubleAutodoor</li>
+    </value>
+  </Operation>
+
+</Patch>

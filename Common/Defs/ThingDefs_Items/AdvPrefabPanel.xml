@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>AdvPrefabPanel</defName>
+    <label>advanced prefab panel</label>
+    <description>A reinforced pre-formed panel made from steel and plasteel. Stronger than standard prefab panels while retaining the same snap-fit design for rapid modular construction with no material waste.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AdvPrefabPanel</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <MarketValue>45</MarketValue>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <stackLimit>75</stackLimit>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Prefab Walls</name>
+  <author>Phil</author>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <packageId>Phil.PrefabWalls</packageId>
+  <modVersion>0.19</modVersion>
+  <description>Adds modular prefab wall panels that can be quickly assembled and disassembled with no material loss. Craft Prefab Panels at a machining table from any metal, then snap them together into walls on-site.
+
+Features:
+- Prefab Panel: an intermediate resource crafted from steel at the machining table
+- Prefab Wall: fast to build, fast to deconstruct, full material refund
+- Prefab Door: matching snap-fit door with the same benefits
+- Prefab Autodoor: powered automatic door with snap-fit panels and integrated motor
+- Requires Prefab Construction research (unlocked after Machining)
+
+Advanced Tier:
+- Advanced Prefab Panel: reinforced steel-plasteel panel crafted at the fabrication bench
+- Advanced Prefab Wall: 550 HP, reduced bomb and thump vulnerability
+- Advanced Prefab Door, Autodoor: stronger snap-fit doors
+- Requires Advanced Prefab Construction research (unlocked after Fabrication)
+
+Optional compatibility:
+- Basic Double Doors: adds standard and advanced Prefab Double Doors and Double Autodoors when loaded</description>
+</ModMetaData>

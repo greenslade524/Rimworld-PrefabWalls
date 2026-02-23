@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Orbital bulk goods trader: standard panels -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Orbital_BulkGoods"]/stockGenerators</xpath>
+    <value>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PrefabPanel</thingDef>
+        <countRange>10~40</countRange>
+      </li>
+    </value>
+  </Operation>
+
+  <!-- Orbital bulk goods trader: advanced panels -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Orbital_BulkGoods"]/stockGenerators</xpath>
+    <value>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>AdvPrefabPanel</thingDef>
+        <countRange>5~20</countRange>
+      </li>
+    </value>
+  </Operation>
+
+  <!-- Outlander bulk goods caravan: standard panels -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Caravan_Outlander_BulkGoods"]/stockGenerators</xpath>
+    <value>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PrefabPanel</thingDef>
+        <countRange>5~25</countRange>
+      </li>
+    </value>
+  </Operation>
+
+  <!-- Outlander bulk goods caravan: advanced panels -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Caravan_Outlander_BulkGoods"]/stockGenerators</xpath>
+    <value>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>AdvPrefabPanel</thingDef>
+        <countRange>3~12</countRange>
+      </li>
+    </value>
+  </Operation>
+
+  <!-- Outlander settlement base: standard panels -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Base_Outlander_Standard"]/stockGenerators</xpath>
+    <value>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PrefabPanel</thingDef>
+        <countRange>5~30</countRange>
+      </li>
+    </value>
+  </Operation>
+
+  <!-- Outlander settlement base: advanced panels -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Base_Outlander_Standard"]/stockGenerators</xpath>
+    <value>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>AdvPrefabPanel</thingDef>
+        <countRange>3~15</countRange>
+      </li>
+    </value>
+  </Operation>
+
+  <!-- Orbital exotic goods trader: advanced panels only -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TraderKindDef[defName="Orbital_Exotic"]/stockGenerators</xpath>
+    <value>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>AdvPrefabPanel</thingDef>
+        <countRange>5~20</countRange>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>

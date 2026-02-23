@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="DoorBase">
+    <defName>AdvPrefabDoubleDoor</defName>
+    <label>advanced prefab double door</label>
+    <description>A double-width door assembled from reinforced plasteel-steel panels. Snap-fit construction allows rapid installation and removal with no material loss. Must be manually opened, which slows people down.</description>
+    <designatorDropdown>PrefabDoors_Dropdown</designatorDropdown>
+    <thingClass>Building_MultiTileDoor</thingClass>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Flammability>0</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Doors/BDD_DoorSimple_DoubleMover</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Doors/BDD_DoorSimple_DoubleMenuIcon</uiIconPath>
+    <useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+    <size>(2, 1)</size>
+    <rotatable>true</rotatable>
+    <stuffCategories Inherit="False" />
+    <useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+    <resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
+    <costList>
+      <AdvPrefabPanel>6</AdvPrefabPanel>
+    </costList>
+    <building>
+      <blueprintClass>Blueprint_Build</blueprintClass>
+      <blueprintGraphicData>
+        <texPath>Doors/BDD_DoorSimple_DoubleMenuIcon</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>EdgeDetect</shaderType>
+        <drawSize>(2, 2)</drawSize>
+      </blueprintGraphicData>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_MultiCellDoor</li>
+    </placeWorkers>
+    <designationHotKey>Misc11</designationHotKey>
+    <researchPrerequisites>
+      <li>AdvPrefabConstruction</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="DoorBase">
+    <defName>AdvPrefabDoubleAutodoor</defName>
+    <label>advanced prefab double autodoor</label>
+    <description>A double-width automatic door assembled from reinforced plasteel-steel panels with an integrated motor mechanism. Snap-fit construction allows rapid installation and removal with no material loss. Powered operation allows people to move through without slowing down.</description>
+    <designatorDropdown>PrefabAutodoors_Dropdown</designatorDropdown>
+    <thingClass>Building_MultiTileDoor</thingClass>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <WorkToBuild>150</WorkToBuild>
+      <Flammability>0</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Doors/BDD_Autodoor_DoubleMover</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Doors/BDD_Autodoor_DoubleMenuIcon</uiIconPath>
+    <useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+    <size>(2, 1)</size>
+    <rotatable>true</rotatable>
+    <stuffCategories Inherit="False" />
+    <useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+    <resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
+    <costList>
+      <AdvPrefabPanel>6</AdvPrefabPanel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <building>
+      <blueprintClass>Blueprint_Build</blueprintClass>
+      <blueprintGraphicData>
+        <texPath>Doors/BDD_Autodoor_DoubleMenuIcon</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>EdgeDetect</shaderType>
+        <drawSize>(2, 2)</drawSize>
+      </blueprintGraphicData>
+    </building>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>50</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <tickerType>Normal</tickerType>
+    <placeWorkers>
+      <li>PlaceWorker_MultiCellDoor</li>
+    </placeWorkers>
+    <designationHotKey>Misc12</designationHotKey>
+    <researchPrerequisites>
+      <li>AdvPrefabConstruction</li>
+      <li>Autodoors</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+</Defs>

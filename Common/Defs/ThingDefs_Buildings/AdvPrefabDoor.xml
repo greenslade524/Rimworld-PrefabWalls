@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="DoorBase">
+    <defName>AdvPrefabDoor</defName>
+    <label>advanced prefab door</label>
+    <description>A door assembled from reinforced plasteel-steel panels. Snap-fit construction allows rapid installation and removal with no material loss. Stronger than a standard prefab door.</description>
+    <designatorDropdown>PrefabDoors_Dropdown</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <WorkToBuild>50</WorkToBuild>
+      <Flammability>0</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Building/Door/DoorSimple_Mover</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Door/DoorSimple_MenuIcon</uiIconPath>
+    <stuffCategories Inherit="False" />
+    <useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+    <resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
+    <costList>
+      <AdvPrefabPanel>3</AdvPrefabPanel>
+    </costList>
+    <designationHotKey>Misc9</designationHotKey>
+    <researchPrerequisites>
+      <li>AdvPrefabConstruction</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+</Defs>

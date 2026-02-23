@@ -1,0 +1,15 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# RimWorld generated
+Source/obj/
+Source/bin/
+*.dll

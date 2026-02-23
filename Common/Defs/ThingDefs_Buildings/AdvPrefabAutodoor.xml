@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="DoorBase">
+    <defName>AdvPrefabAutodoor</defName>
+    <label>advanced prefab autodoor</label>
+    <description>An automatic door assembled from reinforced plasteel-steel panels with an integrated motor mechanism. Snap-fit construction allows rapid installation and removal with no material loss. Powered operation allows people to move through without slowing down.</description>
+    <designatorDropdown>PrefabAutodoors_Dropdown</designatorDropdown>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <WorkToBuild>80</WorkToBuild>
+      <Flammability>0</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Building/Door/Autodoor_Mover</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Door/Autodoor_MenuIcon</uiIconPath>
+    <stuffCategories Inherit="False" />
+    <useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+    <resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
+    <costList>
+      <AdvPrefabPanel>3</AdvPrefabPanel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>50</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <tickerType>Normal</tickerType>
+    <designationHotKey>Misc10</designationHotKey>
+    <researchPrerequisites>
+      <li>AdvPrefabConstruction</li>
+      <li>Autodoors</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+</Defs>
