@@ -4,7 +4,7 @@
   <ResearchProjectDef>
     <defName>AdvPrefabConstruction</defName>
     <label>advanced prefab construction</label>
-    <description>Develop techniques for reinforcing snap-fit panels with plasteel, enabling stronger modular wall, door, and autodoor construction.</description>
+    <description>Develop techniques for reinforcing snap-fit panels with plasteel, enabling stronger modular construction.</description>
     <baseCost>1200</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>

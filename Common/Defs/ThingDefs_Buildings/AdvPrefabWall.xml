@@ -4,7 +4,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>AdvPrefabWall</defName>
     <label>advanced prefab wall</label>
-    <description>A reinforced wall assembled from advanced plasteel-steel panels. Snap-fit construction allows rapid assembly and clean disassembly with no material loss. Stronger than a standard steel wall.</description>
+    <description>A reinforced wall assembled from advanced plasteel-steel panels. Snap-fit construction allows rapid assembly and clean disassembly with no material loss. Stronger than a standard steel wall, and braced against explosions.</description>
     <designatorDropdown>PrefabWalls_Dropdown</designatorDropdown>
     <thingClass>Building</thingClass>
     <category>Building</category>

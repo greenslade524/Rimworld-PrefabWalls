@@ -4,7 +4,7 @@
   <ResearchProjectDef>
     <defName>PrefabConstruction</defName>
     <label>prefab construction</label>
-    <description>Develop techniques for stamping steel into standardized snap-fit panels, enabling rapid modular wall, door, and autodoor construction.</description>
+    <description>Develop techniques for stamping steel into standardized snap-fit panels, enabling rapid construction of structures.</description>
     <baseCost>400</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
