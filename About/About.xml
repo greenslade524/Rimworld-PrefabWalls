@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Prefab Walls</name>
-  <author>Phil</author>
+  <author>Greenslade</author>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
-  <packageId>Phil.PrefabWalls</packageId>
+  <packageId>Greenslade.PrefabWalls</packageId>
   <modVersion>0.19</modVersion>
-  <description>Adds modular prefab wall panels that can be quickly assembled and disassembled with no material loss. Craft Prefab Panels at a machining table from any metal, then snap them together into walls on-site.
+  <description>A mod I made to solve a problem of Gravship play. Whenever you land on a new map, you need to set up defenses quickly. I felt like this was a good balanced solution.
+ 
+This mod moves the work and material cost to workbenches rather than the construction itself. Craft Prefab Panels at a machining table, then snap them together into walls on-site.
 
-Features:
-- Prefab Panel: an intermediate resource crafted from steel at the machining table
-- Prefab Wall: fast to build, fast to deconstruct, full material refund
-- Prefab Door: matching snap-fit door with the same benefits
-- Prefab Autodoor: powered automatic door with snap-fit panels and integrated motor
-- Requires Prefab Construction research (unlocked after Machining)
-
-Advanced Tier:
-- Advanced Prefab Panel: reinforced steel-plasteel panel crafted at the fabrication bench
-- Advanced Prefab Wall: 550 HP, reduced bomb and thump vulnerability
-- Advanced Prefab Door, Autodoor: stronger snap-fit doors
-- Requires Advanced Prefab Construction research (unlocked after Fabrication)
+Construct walls, doors, autodoors and barricades from prefab panels. The first tier is unlocked after machining and costs 10 steel per panel. The second, advanced tier is unlocked after fabrication and costs 12 steel and 1 plasteel per panel. The advanced tier also has slightly less vulnerability to bombs and thump damage than regular walls. 
 
 Optional compatibility:
-- Basic Double Doors: adds standard and advanced Prefab Double Doors and Double Autodoors when loaded</description>
+- Basic Double Doors: adds standard and advanced Prefab Double Doors and Double Autodoors when loaded
+https://steamcommunity.com/sharedfiles/filedetails/?id=3223646936
+</description>
 </ModMetaData>
