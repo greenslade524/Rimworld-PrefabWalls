@@ -2,6 +2,5 @@
 <loadFolders>
   <v1.6>
     <li>Common</li>
-    <li IfModActive="GT.Sam.BasicDoubleDoors">Optional/BasicDoubleDoors</li>
   </v1.6>
 </loadFolders>

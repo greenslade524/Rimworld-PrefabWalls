@@ -76,6 +76,8 @@
       <relatedBuildCommands>
         <li>AdvPrefabDoor</li>
         <li>AdvPrefabAutodoor</li>
+        <li>AdvPrefabDoubleDoor</li>
+        <li>AdvPrefabDoubleAutodoor</li>
       </relatedBuildCommands>
     </building>
 	<comps>

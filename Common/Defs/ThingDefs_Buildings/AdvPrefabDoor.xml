@@ -12,13 +12,13 @@
       <Flammability>0</Flammability>
     </statBases>
     <graphicData>
-      <texPath>Things/Building/Door/DoorSimple_Mover</texPath>
+      <texPath>Things/Building/Door/AdvPrefabDoor_Mover</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <damageData>
         <enabled>false</enabled>
       </damageData>
     </graphicData>
-    <uiIconPath>Things/Building/Door/DoorSimple_MenuIcon</uiIconPath>
+    <uiIconPath>Things/Building/Door/AdvPrefabDoor_MenuIcon</uiIconPath>
     <stuffCategories Inherit="False" />
     <useStuffTerrainAffordance>false</useStuffTerrainAffordance>
     <resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>

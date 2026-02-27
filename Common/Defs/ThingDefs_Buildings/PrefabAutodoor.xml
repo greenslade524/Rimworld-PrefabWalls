@@ -12,13 +12,13 @@
       <Flammability>0</Flammability>
     </statBases>
     <graphicData>
-      <texPath>Things/Building/Door/Autodoor_Mover</texPath>
+      <texPath>Things/Building/Door/PrefabAutodoor_Mover</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <damageData>
         <enabled>false</enabled>
       </damageData>
     </graphicData>
-    <uiIconPath>Things/Building/Door/Autodoor_MenuIcon</uiIconPath>
+    <uiIconPath>Things/Building/Door/PrefabAutodoor_MenuIcon</uiIconPath>
     <!-- No stuff categories - uses prefab panels directly -->
     <stuffCategories Inherit="False" />
     <useStuffTerrainAffordance>false</useStuffTerrainAffordance>

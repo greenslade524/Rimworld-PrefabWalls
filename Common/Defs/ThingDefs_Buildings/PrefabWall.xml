@@ -75,6 +75,8 @@
       <relatedBuildCommands>
         <li>PrefabDoor</li>
         <li>PrefabAutodoor</li>
+        <li>PrefabDoubleDoor</li>
+        <li>PrefabDoubleAutodoor</li>
       </relatedBuildCommands>
     </building>
     <damageMultipliers>
