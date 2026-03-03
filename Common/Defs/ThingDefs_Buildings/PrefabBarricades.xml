@@ -12,14 +12,14 @@
       <li>Barricade</li>
     </replaceTags>
     <graphicData>
-      <texPath>Things/Building/Linked/Barricade_Atlas</texPath>
+      <texPath>Things/Building/Linked/PrefabBarricade/PrefabBarricade_Atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <linkType>Basic</linkType>
       <linkFlags>
         <li>Barricades</li>
       </linkFlags>
     </graphicData>
-    <uiIconPath>Things/Building/Linked/Barricade_MenuIcon</uiIconPath>
+    <uiIconPath>Things/Building/Linked/PrefabBarricade/PrefabBarricade_MenuIcon</uiIconPath>
     <uiIconScale>1.2</uiIconScale>
     <altitudeLayer>Building</altitudeLayer>
     <pathCost>42</pathCost>
@@ -72,14 +72,14 @@
       <li>Barricade</li>
     </replaceTags>
     <graphicData>
-      <texPath>Things/Building/Linked/Barricade_Atlas</texPath>
+      <texPath>Things/Building/Linked/AdvPrefabBarricade/AdvPrefabBarricade_Atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <linkType>Basic</linkType>
       <linkFlags>
         <li>Barricades</li>
       </linkFlags>
     </graphicData>
-    <uiIconPath>Things/Building/Linked/Barricade_MenuIcon</uiIconPath>
+    <uiIconPath>Things/Building/Linked/AdvPrefabBarricade/AdvPrefabBarricade_MenuIcon</uiIconPath>
     <uiIconScale>1.2</uiIconScale>
     <altitudeLayer>Building</altitudeLayer>
     <pathCost>42</pathCost>
