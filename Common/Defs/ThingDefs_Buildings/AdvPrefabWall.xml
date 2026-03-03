@@ -68,7 +68,6 @@
       <isPlaceOverableWall>true</isPlaceOverableWall>
       <supportsWallAttachments>true</supportsWallAttachments>
       <ai_chillDestination>false</ai_chillDestination>
-	  <isPowerConduit>true</isPowerConduit>
       <groupingLabel>prefab wall</groupingLabel>
       <blueprintGraphicData>
         <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
@@ -80,12 +79,6 @@
         <li>AdvPrefabDoubleAutodoor</li>
       </relatedBuildCommands>
     </building>
-	<comps>
-        <li Class="CompProperties_Power">
-        <compClass>CompPowerTransmitter</compClass>
-        <transmitsPower>true</transmitsPower>
-        </li>
-    </comps>
     <damageMultipliers>
       <li>
         <damageDef>Bomb</damageDef>
